@@ -1,5 +1,5 @@
 Flow report for ram
-Tue Nov 08 02:27:56 2016
+Wed Nov 16 11:30:27 2016
 Quartus II Version 10.0 Build 218 06/27/2010 SJ Web Edition
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +------------------------------------+------------------------------------------+
-; Flow Status                        ; Successful - Tue Nov 08 02:27:43 2016    ;
+; Flow Status                        ; Successful - Wed Nov 16 11:30:08 2016    ;
 ; Quartus II Version                 ; 10.0 Build 218 06/27/2010 SJ Web Edition ;
 ; Revision Name                      ; ram                                      ;
 ; Top-level Entity Name              ; ram                                      ;
@@ -46,13 +46,13 @@ applicable agreement for further details.
 ; Device                             ; EP4CE115F29C7                            ;
 ; Timing Models                      ; Final                                    ;
 ; Met timing requirements            ; N/A                                      ;
-; Total logic elements               ; 8,883 / 114,480 ( 8 % )                  ;
-;     Total combinational functions  ; 2,739 / 114,480 ( 2 % )                  ;
-;     Dedicated logic registers      ; 8,224 / 114,480 ( 7 % )                  ;
-; Total registers                    ; 8224                                     ;
-; Total pins                         ; 36 / 529 ( 7 % )                         ;
+; Total logic elements               ; 14,398 / 114,480 ( 13 % )                ;
+;     Total combinational functions  ; 8,236 / 114,480 ( 7 % )                  ;
+;     Dedicated logic registers      ; 12,324 / 114,480 ( 11 % )                ;
+; Total registers                    ; 12324                                    ;
+; Total pins                         ; 49 / 529 ( 9 % )                         ;
 ; Total virtual pins                 ; 0                                        ;
-; Total memory bits                  ; 0 / 3,981,312 ( 0 % )                    ;
+; Total memory bits                  ; 131,072 / 3,981,312 ( 3 % )              ;
 ; Embedded Multiplier 9-bit elements ; 0 / 532 ( 0 % )                          ;
 ; Total PLLs                         ; 0 / 4 ( 0 % )                            ;
 +------------------------------------+------------------------------------------+
@@ -63,7 +63,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/08/2016 02:25:32 ;
+; Start date & time ; 11/16/2016 11:26:05 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ram                 ;
 +-------------------+---------------------+
@@ -74,7 +74,7 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+---------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 167403782743815.147854313211492 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 167403782743815.147926676503760 ; --            ; --          ; --             ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                              ; --            ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                               ; --            ; --          ; --             ;
 ; PARTITION_COLOR                     ; 16764057                        ; --            ; --          ; Top            ;
@@ -89,11 +89,11 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:48     ; 1.0                     ; 390 MB              ; 00:00:46                           ;
-; Fitter                    ; 00:01:01     ; 1.0                     ; 523 MB              ; 00:00:59                           ;
-; Assembler                 ; 00:00:14     ; 1.0                     ; 499 MB              ; 00:00:12                           ;
-; TimeQuest Timing Analyzer ; 00:00:25     ; 1.0                     ; 378 MB              ; 00:00:20                           ;
-; Total                     ; 00:02:28     ; --                      ; --                  ; 00:02:17                           ;
+; Analysis & Synthesis      ; 00:01:18     ; 1.0                     ; 491 MB              ; 00:01:15                           ;
+; Fitter                    ; 00:02:21     ; 1.0                     ; 655 MB              ; 00:02:19                           ;
+; Assembler                 ; 00:00:10     ; 1.0                     ; 520 MB              ; 00:00:10                           ;
+; TimeQuest Timing Analyzer ; 00:00:29     ; 1.0                     ; 444 MB              ; 00:00:26                           ;
+; Total                     ; 00:04:18     ; --                      ; --                  ; 00:04:10                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
